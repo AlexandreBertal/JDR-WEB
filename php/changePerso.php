@@ -95,13 +95,11 @@
                 <label for="localisation">Indiquer la dernière localisation du personnage : </label>
                 <input type="text" name="localisation" id="localisation"value="<?php echo($donnees["localisation_personnage"])?>">
                 <hr>
-                <label for="gen">Indiquer la ou les générations où il a été vu : </label>
+                <label for="gen">Indiquer la dernière génération où il a été vu pour la dernière fois : </label>
                 <select name="gen" id="gen">
                 <?php echo(" <option value=\"".$donnees["generation_personnage"]."\">".$donnees["generation_personnage"]."</option>")?>
-                    <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
-                    <option value="1 et 2">1 et 2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                 </select>
