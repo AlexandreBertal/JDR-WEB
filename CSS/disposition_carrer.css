@@ -1,0 +1,123 @@
+.page
+{
+    color: white;
+    display:flex;
+    flex-direction: column;
+    flex: 100%;
+    align-items: center;
+    margin-left: 15%;
+}
+.generation
+{
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+   
+}
+.liste
+{
+    display:flex;
+    flex-direction:row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.page a
+{
+max-width: 30%; 
+text-decoration: none; 
+}
+.page img
+{
+    max-width: 160px;
+    min-width: 130px;
+    min-height: 200px;
+    max-height: 200px;
+	padding: 20px;
+}
+
+/* ------------------------Responsive-------------------------------- */
+
+@media screen and (max-width: 900px) 
+{
+    .page
+    {
+        margin-left: 20%;
+    }
+    h1
+     {
+        font-size: 2em;
+     }
+    h2
+     {
+        font-size: 1.5em;
+        max-height: 10px;
+     }  
+}
+
+    
+@media screen and (max-width: 700px) {
+
+.generation
+{
+flex-direction: column;
+}
+.liste
+{
+flex-direction:column
+}
+
+li a {
+    padding: 10px 0 10px 10px;
+}
+
+h1
+{
+text-align: center;  
+margin-left: 50px;
+}
+h2
+{
+text-align: center;  
+margin-left: 50px;
+}
+.page
+{
+margin-left: 10%;
+
+}
+
+}
+@media screen and (max-width: 450px) 
+{
+    .page
+    {
+        margin-left: 20%;
+    }
+    h1
+     {
+        font-size: 1.7em;
+     }
+    h2
+     {
+        font-size: 1.2em;
+     }   
+}
+@media screen and (max-width: 320px) 
+{
+    .page
+    {
+        margin-left: 35%;
+    }
+    h1
+     {
+        font-size: 1.3em;
+     }
+    h2
+     {
+        font-size: 1em;
+     }   
+}
+
+

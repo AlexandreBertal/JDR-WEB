@@ -1,0 +1,17 @@
+.page
+{
+    color: white;
+    display:flex;
+    flex-direction: column;
+    flex: 100%;
+    align-items: center;
+    margin-left: 15%;
+}
+.page a
+{
+max-width: 30%;  
+}
+img
+{
+ max-width: 100%;   
+}
